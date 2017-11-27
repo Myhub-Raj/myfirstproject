@@ -1,41 +1,72 @@
-.my-two{
-  text-align: right;
+/*back ground colour*/
+body{
+  background-color: #fbfbf5;
 }
-.my-one{
+
+/*header text1 */
+.my-one  h1{
   color: #7F7483;
   padding-left: 24em;
   font-family: open sans,sans-serif;
   font-weight: normal;
+  padding-left: 6em;
+  margin-top: 1em;
   max-height: 10px;
-  margin-top: 5px;
 }
+
+/*header text1 media query for iphone5*/
+.my-one h1{
+  font-family: open sans,sans-serif;
+  font-size: 3.3em;
+  padding-left: 0.5em;
+  min-height: 10px;
+  margin-top: 0.7em;
+  font-weight: normal;
+}
+/*header text2 burger menu*/
+.my-two{
+  text-align: right;
+}
+/*Inner-middle part area -we deal in digital design*/
 .inner {
-  margin-top: calc(50% - 350px) !important;
-  margin-bottom: 30em  !important;
+  margin-top: calc(25% - 50px) !important;
+    margin-bottom: 30em  !important;
 }
-
+/*Inner-middle part area my three -we deal in */
 .my-three {
-
-
+white-space: normal;
 }
-.sc-abc{
-  width: inherit;
-}
-
+.wdi{
+  font-size: 5em;
+  color: #7F7483;
+  font-family: sans-serif;
+  padding-left: 0em;
+  }
+  /*Inner-middle part area my three -we deal in media query for iphone5*/
+  .wdi{
+    font-size: 3em;
+    line-height: 4em;
+    }
+/*Inner-middle part area my three -design in media query for iphone5*/
 .bo-txt {
   margin-top: 5em;
 }
-
-.wdi{
-  font-size: 6em;
-  color: #7F7483;
-
+.bo-txt {
+  margin-top: 5em;
 }
-
+  .bo-txt{
+    margin-top: 2em;
+  }
+/*Inner-middle part area my three -digital in media query for iphone5*/
 .dig {
   font-size: 5em;
   color: #FFCD00;
-  padding-left: -5em;
+  padding-right: 0em;
+}
+
+.dig{
+  font-size: 3em;
+  line-height: 0em;
 }
 
 .my-five {
@@ -46,9 +77,7 @@
   display: grid;
   grid-auto-flow: dense;
   padding-left: 28em;
-
 }
-
 
 .ff1 {
   display: block;
