@@ -43,14 +43,14 @@ body {
 
 .col-3 {
   box-sizing: border-box;
-  width: 100%;
+  width: 75%;
   float: left;
   padding-left: 3.33333%;
   padding-right: 3.33333%; }
 
 .col-4 {
   box-sizing: border-box;
-  width: 100%;
+  width: 80%;
   float: left;
   padding-left: 3.33333%;
   padding-right: 3.33333%; }
@@ -64,7 +64,7 @@ body {
 
 .col-6 {
   box-sizing: border-box;
-  width: 100%;
+  width: 90%;
   float: left;
   padding-left: 3.33333%;
   padding-right: 3.33333%; }

@@ -14,7 +14,7 @@ body{
   max-height: 10px;
 }
 
-/*header text1 media query for iphone5*/
+/*header text1 media query for iphone5/ipad/normal*/
 
 @media only screen
 and (min-width : 320px)
@@ -23,6 +23,19 @@ and (max-width : 568px){
   font-family: open sans,sans-serif;
   font-size: 3.3em;
   padding-left:0.4em;
+  min-height: 10px;
+  margin-top: 0.6em;
+  font-weight: normal;
+}
+}
+
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px){
+.my-one h1{
+  font-family: open sans,sans-serif;
+  font-size: 5em;
+  padding-left:1em;
   min-height: 10px;
   margin-top: 0.6em;
   font-weight: normal;
@@ -51,7 +64,7 @@ white-space: normal;
   padding-left: 0em;
   }
 
-/*Inner-middle part area my three -we deal in media query for iphone5*/
+/*Inner-middle part area my three -we deal in media query for iphone5/Ipad/mormal*/
   @media only screen
   and (min-width : 320px)
   and (max-width : 568px){
@@ -60,6 +73,17 @@ white-space: normal;
     line-height: 4em;
     }
   }
+
+  @media only screen
+  and (min-width : 768px)
+  and (max-width : 1024px){
+  .my-one h1{
+    font-family: open sans,sans-serif;
+    font-size: 5em;
+    padding-left:2em;
+    min-height: 10px;
+    margin-top: 0.6em;
+    font-weight: normal;
 
 /*Inner-middle part 2 area class spliting 3parts/columns three -design */
 
