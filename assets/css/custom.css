@@ -1,196 +1,226 @@
+
 /*back ground colour*/
 body{
   background-color: #fbfbf5;
 }
-/*Main header  */
-
-.forg{
-  color: yellow;
-}
-
-@media only screen
-and (min-width : 320px)
-and (max-width : 568px){
-.simp-head{
-float: left;
-}
-}
-/*header text1 */
-.my-one  h1{
+  /*  HEADER SECTION */
+/*Main header for simplyfying*/
+.my-one h1{
   color: #7F7483;
-  text-align: center;
-  font-family: open sans,sans-serif;
+  font-family: open Sans,sans-serif;
   font-weight: normal;
-  padding-left:4em;
-  margin-top: 1.5px;
-  max-height: 10px;
+  padding-left: 4em;
+  margin-top: 1px;
+  text-align: center;
 }
 
-/*header text1 media query for iphone5/ipad/normal*/
+/*Main header for "g" colour */
+.for-g{
+  color: #FFCD00;
+  font-family: cursive;
+  font-style: normal;
+  font-size: 1.2em;
+}
 
+/*Main header for burger menu */
+.my-two{
+  text-align:left;
+}
+
+                        /*INNER SECTION*/
+/*class inner*/
+.inner {
+  margin-top: calc(50% -350px) !important;
+  margin-bottom: 30em  !important;
+}
+  /*Inner-middle part area my three -we deal in */
+  .my-three {
+  white-space: normal;
+  }
+  /*Inner-middle part area my three we deal in */
+  .wdi{
+    font-size:6.5em;
+    color: #7F7483;
+    font-family: sans-serif;
+    padding-left: 0.5em;
+    line-height: 4em;
+    }
+    /*Inner-middle part 2 area class spliting 3parts/columns three -design */
+  .bo-txt {
+      margin-top:4.5em;
+
+    }
+/*Inner-middle part 2 area class spliting 3parts/columns three -design */
+    .sc-vxr{
+      display: grid;
+      grid-auto-flow: dense;
+      padding-left: 26em;
+    }
+    /*Inner-middle part 2 area class spliting 3parts/columns  -design */
+    .dig{
+      font-size: 4em;
+      color: #FFCD00;
+      padding-right: 0em;
+    }
+
+
+            /*FOOOTER SECTION                */
+    /*footer part1 area class spliting 3parts/columns mail part */
+    .ff1 {
+      display: block;
+    }
+    .ff1 {
+      color: #7F7483;
+      font-family: open sans, sans-serif;
+      font-size: 1.2em;
+      margin-bottom: 1em;
+    }
+    .for-hi-g{
+      color: #FFCD00;
+      font-family: cursive;
+      font-style: normal;
+      font-size: 1.3em;
+    }
+
+    /*footer part2 area class spliting 3parts/columns "Built in Los Angeles, California."" part2 */
+    .ff2 {
+      display: block;
+    }
+    .ff2 {
+      text-align: center;
+      color: #7F7483;
+      font-family: open sans, sans-serif;
+      font-size: 1.2em;
+      margin-bottom: 1em;
+    }
+    /*footer part3 area class spliting 3parts/columns "contact- +1 3238251687 " part3 */
+    .ff3 {
+      display: block;
+    }
+    .ff3 {
+      text-align: right;
+      color: #7F7483;
+      font-family: open sans, sans-serif;
+      font-size: 1.2em;
+      margin-bottom: 1em;
+    }
+
+
+/* media queries for all properties for iphone5 for pixel 320-568px*/
 @media only screen
 and (min-width : 320px)
 and (max-width : 568px){
+/*  HEADER SECTION */
+/*Main header for simplyfying*/
+  .my-one{
+    width: 80%;
+    float: left;
+    padding-left: 0em;
+  }
+
+/*Main header for simplyfying*/
 .my-one h1{
-  font-family: open sans,sans-serif;
-  font-size: 3.3em;
-  padding-left:0.4em;
-  min-height: 10px;
-  margin-top: 0.6em;
-  font-weight: normal;
-}
+color: #7F7483;
+font-family: open Sans,sans-serif;
+font-weight:normal;
+padding-left:0em;
+float:left;
+margin-top:0.5em;
+font-size: 3.5em;
 }
 
-@media only screen
-and (min-width : 768px)
-and (max-width : 1024px){
-.my-one h1{
-  font-family: open sans,sans-serif;
-  font-size: 5em;
-  padding-left:1em;
-  min-height: 10px;
-  margin-top: 0.6em;
-  font-weight: normal;
+/*Main header for "g" colour */
+.for-g{
+  color: #FFCD00;
+  font-family: cursive;
+  font-size: 1em;
 }
-}
-
-/*header text2 burger menu*/
+/*Main header for burger menu */
 .my-two{
-  text-align: right;
+  width: 20%;
+  float: right;
+  padding-right: 0em;
+  text-align:right;
+  margin-bottom:0.2em;
 }
-/*Inner-middle part area -we deal in design*/
+
+                      /*INNER SECTION*/
+/*class inner*/
 .inner {
-  margin-top: calc(15% - 50px) !important;
-    margin-bottom: 30em  !important;
+margin-top: calc(50%-75px) !important;
+margin-bottom:12em  !important;
 }
 /*Inner-middle part area my three -we deal in */
 .my-three {
 white-space: normal;
 }
-
-/*Inner-middle part area my three */
+/*Inner-middle part area my three we deal in */
 .wdi{
-  font-size: 6em;
+  font-size:4em;
   color: #7F7483;
   font-family: sans-serif;
-  padding-left: 0em;
+  float: left;
+  padding-left:0.1px;
   }
-
-/*Inner-middle part area my three -we deal in media query for iphone5/Ipad/mormal*/
-  @media only screen
-  and (min-width : 320px)
-  and (max-width : 568px){
-  .wdi{
-    font-size: 3em;
-    line-height: 4em;
-    }
-  }
-
-  @media only screen
-  and (min-width : 768px)
-  and (max-width : 1024px){
-  .my-one h1{
-    font-family: open sans,sans-serif;
-    font-size: 5em;
-    padding-left:2em;
-    min-height: 10px;
-    margin-top: 0.6em;
-    font-weight: normal;
-  }
-}
-
-/*Inner-middle part 2 area class spliting 3parts/columns three -design */
-
+  /*Inner-middle part 2 area class spliting 3parts/columns three -design */
 .bo-txt {
-  margin-top: 5em;
-}
-/*Inner-middle part 2 area class spliting 3parts/columns three -design in media query for iphone5*/
-@media only screen
-and (min-width : 320px)
-and (max-width : 568px){
-  .bo-txt{
-    margin-top: 2em;
+    margin-top: 1.5em;
   }
-}
+/*Inner-middle part 2 area class spliting 3parts/columns three -design */
+  .sc-vxr{
+    display: grid;
+    grid-auto-flow: dense;
+    padding-left: 12em;
+  }
+  /*Inner-middle part 2 area class spliting 3parts/columns  -design */
+  .dig{
+    font-size:4.4em;
+    color: #FFCD00;
+    padding-left: 1.2em;
+    line-height: 0.1em
+  }
 
-/*Inner-middle part 2 area class spliting 3parts/columns  -design */
-.dig{
-  font-size: 5em;
-  color: #FFCD00;
-  padding-right: 0em;
-}
-/*Inner-middle part 2 area class spliting 3parts/columns  -design in media query for iphone5*/
-@media only screen
-and (min-width : 320px)
-and (max-width : 568px){
-.dig{
-  font-size: 3em;
-  line-height: 0em;
-  }
-}
 
-.sc-vxr{
-  display: grid;
-  grid-auto-flow: dense;
-  padding-left: 28em;
-}
+          /*FOOOTER SECTION                */
+  /*footer part1 area class spliting 3parts/columns mail part */
+  .ff1 {
+    display: block;
+  }
+  .ff1 {
+    color: #7F7483;
+    font-family: open sans, sans-serif;
+    font-size: 1.2em;
+    text-align: left;
+  }
+  .for-hi-g{
+    color: #FFCD00;
+    font-family: cursive;
+    font-style: normal;
+    font-size: 1.2em;
+  }
 
-/*footer part1 area class spliting 3parts/columns mail part */
-.ff1 {
-  display: block;
-}
-.ff1 {
-  color: #7F7483;
-  font-family: open sans, sans-serif;
-  font-size: 1.3em;
-  margin-bottom: 0em;
-}
-/*footer part1 area class spliting 3parts/columns "mail" part1 for media query iphone5*/
-@media only screen
-and (min-width : 320px)
-and (max-width : 568px){
-.ff1{
-   text-align: left;
-   font-size: 1em;
+
+  /*footer part2 area class spliting 3parts/columns "Built in Los Angeles, California."" part2 */
+  .ff2 {
+    display: block;
   }
-}
-/*footer part2 area class spliting 3parts/columns "Built in Los Angeles, California."" part2 */
-.ff2 {
-  display: block;
-}
-.ff2 {
-  text-align: center;
-  color: #7F7483;
-  font-family: open sans, sans-serif;
-  font-size: 1.3em;
-  margin-bottom: 0em;
-}
-/*footer part2 area class spliting 3parts/columns "Built in Los Angeles, California Copyright 2017 Simplyfying" part2 for media query iphone5*/
-@media only screen
-and (min-width : 320px)
-and (max-width : 568px){
-  .ff2{
-   text-align: center;
-   font-size: 1em;
+  .ff2 {
+    text-align: center;
+    color: #7F7483;
+    font-family: open sans, sans-serif;
+    font-size:1.2em;
+    margin-bottom: 1em;
+
   }
-}
-/*footer part3 area class spliting 3parts/columns "contact- +1 3238251687 " part3 */
-.ff3 {
-  display: block;
-}
-.ff3 {
-  text-align: right;
-  color: #7F7483;
-  font-family: open sans, sans-serif;
-  font-size: 1.3em;
-  margin-bottom: 0em;
-}
-/*footer part3 area class spliting 3parts/columns "contact- +1 3238251687" part3 media query */
-@media only screen
-and (min-width : 320px)
-and (max-width : 568px){
-.ff3{
-   text-align: right;
-   font-size: 1em;
+  /*footer part3 area class spliting 3parts/columns "contact- +1 3238251687 " part3 */
+  .ff3 {
+    display: block;
+  }
+  .ff3 {
+    text-align: right;
+    color: #7F7483;
+    font-family: open sans, sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 1em;
   }
 }
