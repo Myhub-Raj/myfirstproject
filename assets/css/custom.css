@@ -24,10 +24,15 @@ body{
 
 /*Main header for burger menu */
 .my-two{
-  text-align:left;
+padding-right:8em;
+margin-top: 1px;
 }
-
-                        /*INNER SECTION*/
+.fa {
+padding-left: 8em;
+text-align: right;
+margin-top: 1px;
+}
+                      /*INNER SECTION*/
 /*class inner*/
 .inner {
   margin-top: calc(50% -350px) !important;
@@ -141,9 +146,15 @@ font-size: 3.5em;
   float: right;
   padding-right: 0em;
   text-align:right;
-  margin-bottom:0.2em;
+  margin-top:0em;
+  top:0px;
 }
-
+.fa {
+padding-left:6.5em;
+text-align: right;
+margin-top: 0px;
+margin-top: 0em;
+}
                       /*INNER SECTION*/
 /*class inner*/
 .inner {
@@ -183,44 +194,86 @@ white-space: normal;
 
           /*FOOOTER SECTION                */
   /*footer part1 area class spliting 3parts/columns mail part */
-  .ff1 {
+  .mail-phone {
     display: block;
+    position:relative;
+    right:0;
+    left:0;
+    bottom:0;
+    padding:0em;
+    font-family:open sans-serif;
+  }
+  .mailandphone{
+  display: inline-block;
+  padding: 0px;
+  float: left;
+  box-sizing: border-box;
   }
   .ff1 {
     color: #7F7483;
     font-family: open sans, sans-serif;
-    font-size: 1.2em;
+    font-size: 1em;
     text-align: left;
+    float: left;
+    padding:0px;
   }
   .for-hi-g{
     color: #FFCD00;
     font-family: cursive;
     font-style: normal;
-    font-size: 1.2em;
+    font-size: 1em;
+    letter-spacing:0.2em;
   }
-
 
   /*footer part2 area class spliting 3parts/columns "Built in Los Angeles, California."" part2 */
-  .ff2 {
+  .ff2-a-b {
     display: block;
-  }
-  .ff2 {
     text-align: center;
-    color: #7F7483;
-    font-family: open sans, sans-serif;
-    font-size:1.2em;
-    margin-bottom: 1em;
+    padding: 0px;
+    width:100%;
+    font-family: open sans-serif;
+    box-sizing: border-box;
+}
+.BLACF {
+  font-size: 1em;
+  color:#7F7483;
+  font-style: normal;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+.ff2-c {
+  display: block;
+  text-align: center;
+  padding: 0px;
+  width:100%;
+  font-family: open sans-serif;
+  box-sizing: border-box;
+}
+.cpy2017{
+  font-size: 0.7em;
+  color:#7F7483;
+  font-style: normal;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+.smpfn{
+  font-size: 0.7em;
+  color:#7F7483;
+  font-style: normal;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
 
-  }
   /*footer part3 area class spliting 3parts/columns "contact- +1 3238251687 " part3 */
   .ff3 {
     display: block;
   }
   .ff3 {
     text-align: right;
+    float: right;
     color: #7F7483;
     font-family: open sans, sans-serif;
-    font-size: 1.2em;
-    margin-bottom: 1em;
+    font-size: 1em;
+    padding:0px;
   }
 }

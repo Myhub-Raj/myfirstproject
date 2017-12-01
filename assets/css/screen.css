@@ -29,7 +29,6 @@ production stylesheet in assets/built/screen.css
 @import "global.css";
 @import "custom.css";
 @import "grid.css";
-@import "font-awesome.css";
 @import "font-awesome.min.css";
 body {
     background: #f4f8fb;

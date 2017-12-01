@@ -5,12 +5,15 @@ into the {body} of the default.hbs template --}}
 {{!-- The big featured header, it uses blog cover image as a BG if available --}}
 <html>
   <head>
+    <script src="https://use.fontawesome.com/fa55bdd563.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Simplyfying website">
     <meta name="keywords" content="We deal,design">
     <title>Simplyfying</title>
-    <link rel="stylesheet" href="./css/screen.css/http://fontawesome.io/icon/envelope-open-o/">
+    <link rel="stylesheet" href="./css/screen.css">
+    <link rel="stylesheet" href="./css/fontsaws/css/font-awesome.min.css">
+
    </head>
 <body>
   <div class="container">
@@ -18,8 +21,7 @@ into the {body} of the default.hbs template --}}
   <header>
       <div>
         <div class="my-one col-6"><h1>Simplyfyin<span class="for-g">g</span></h1></div>
-        <div class="my-two col-6"><img src="https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-256.png" width="50px">
-        </div>
+        <div class="my-two col-6"><i class="fa fa-bars fa-4x"></i></div>
       </div>
  </header>
  <main id="site-main" class="site-main outer" role="main">
@@ -41,13 +43,19 @@ into the {body} of the default.hbs template --}}
   </div>
 </main>
  <footer>
-    <div class="col-12">
-        <div class="ff1 col-3"><i class="fa fa-envelope-open-o" aria-hidden="true"></i>hi@ simplyfyin<span class="for-hi-g">g</span>.com</div>
-        <div class="ff2 col-6">Built in Los Angeles, California.<br>
-        </br>Copyright 2017 Simplyfying</div>
-        <div class="ff3 col-3"><img src="https://cdn4.iconfinder.com/data/icons/social-icons-6/40/phone-512.png" alt="Image result for phone logo png" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" width="20" height="20" style="margin-top:0px;"> +1 3238251687</div>
-    </div>
+        <section class="mail-phone">
+        <div class ="mailandphone">
+        <div class="ff1 "><i class="fa fa-envelope-open-o" aria-hidden="true"></i>hi@simplyfyin<span class="for-hi-g">g</span>.com</div>
+        <div class="ff3 "><i class="fa fa-phone" aria-hidden="true"></i> +1 3238251687</div>
+        </div>
+        <div class="ff2-a-b">
+          <text class="BLACF">Built in Los Angeles, California.</text>
+        </div>
+        <div class="ff2-c">
+          <text class="cpy2017">Copyright 2017</text>
+          <text class="smpfn"> Simplyfyin</text>
+          <text class="for-hi-g">g</text></div>
+      </section>
   </footer>
-
 </body>
 </html>
