@@ -31,7 +31,7 @@ production stylesheet in assets/built/screen.css
 @import "grid.css";
 @import "font-awesome.min.css";
 body {
-    background: #f4f8fb;
+    background: #fbfbf5;
 }
 
 .img {

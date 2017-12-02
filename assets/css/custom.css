@@ -212,9 +212,8 @@ white-space: normal;
   .ff1 {
     color: #7F7483;
     font-family: open sans, sans-serif;
-    font-size: 1em;
     text-align: left;
-    float: left;
+    float:left;
     padding:0px;
 
   }
@@ -225,10 +224,10 @@ white-space: normal;
     font-size: 1em;
     letter-spacing:0.2em;
   }
-  .fa fa-envelope-open-o {
+  .fa {
     height: 24px;
     width :24px;
-    padding-right: 2em;
+    padding left:0.1em;
   }
 
 
@@ -280,8 +279,9 @@ white-space: normal;
     float: right;
     color: #7F7483;
     font-family: open sans, sans-serif;
-    font-size: 1em;
-    padding:0px;
-
+    padding-left:6em;
   }
+  .fa fa-phone fa-2x{
+
+}
 }
