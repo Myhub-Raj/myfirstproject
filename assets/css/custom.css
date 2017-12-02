@@ -9,7 +9,7 @@ body{
   color: #7F7483;
   font-family: open Sans,sans-serif;
   font-weight: normal;
-  padding-left: 4em;
+  padding-left: 6.5em;
   margin-top: 1px;
   text-align: center;
 }
@@ -24,10 +24,12 @@ body{
 
 /*Main header for burger menu */
 .my-two{
+color: #7F7483;
 padding-right:8em;
 margin-top: 1px;
 }
 .fa {
+  color:#7F7483;
 padding-left: 8em;
 text-align: right;
 margin-top: 1px;
@@ -44,7 +46,7 @@ margin-top: 1px;
   }
   /*Inner-middle part area my three we deal in */
   .wdi{
-    font-size:6.5em;
+    font-size:4.5em;
     color: #7F7483;
     font-family: sans-serif;
     padding-left: 0.5em;
@@ -52,7 +54,7 @@ margin-top: 1px;
     }
     /*Inner-middle part 2 area class spliting 3parts/columns three -design */
   .bo-txt {
-      margin-top:4.5em;
+      margin-top:2.5em;
 
     }
 /*Inner-middle part 2 area class spliting 3parts/columns three -design */
@@ -63,52 +65,100 @@ margin-top: 1px;
     }
     /*Inner-middle part 2 area class spliting 3parts/columns  -design */
     .dig{
-      font-size: 4em;
+      font-size: 5em;
       color: #FFCD00;
       padding-right: 0em;
     }
 
 
-            /*FOOOTER SECTION                */
+                     /*FOOOTER SECTION */
     /*footer part1 area class spliting 3parts/columns mail part */
-    .ff1 {
-      display: block;
-    }
+    .mail-phone {
+        display: block;
+        position:relative;
+        right:0;
+        left:0;
+        bottom:0;
+        padding:0;
+        font-family:open sans-serif;
+      }
+      .mailandphone{
+      display: inline-block;
+      padding:0px;
+      box-sizing: border-box;
+      }
+
     .ff1 {
       color: #7F7483;
       font-family: open sans, sans-serif;
       font-size: 1.2em;
-      margin-bottom: 1em;
+      text-align: left;
+      float: left;
+      padding:0px;
     }
     .for-hi-g{
       color: #FFCD00;
       font-family: cursive;
       font-style: normal;
       font-size: 1.3em;
+      letter-spacing:0.2em;
     }
+    .fa {
+    height: 24px;
+    width :24px;
+    padding left:0.1em;
+  }
 
     /*footer part2 area class spliting 3parts/columns "Built in Los Angeles, California."" part2 */
-    .ff2 {
-      display: block;
+    .ff2-a-b {
+        display: block;
+        text-align: center;
+        padding: 0px;
+        width:100%;
+        font-family: open sans-serif;
+        box-sizing: border-box;
     }
-    .ff2 {
+    .BLACF {
+      font-size: 1em;
+      color:#7F7483;
+      font-style: normal;
+      letter-spacing: 0.2em;
       text-align: center;
-      color: #7F7483;
-      font-family: open sans, sans-serif;
-      font-size: 1.2em;
-      margin-bottom: 1em;
     }
-    /*footer part3 area class spliting 3parts/columns "contact- +1 3238251687 " part3 */
-    .ff3 {
+    .ff2-c {
       display: block;
+      text-align: center;
+      padding: 0px;
+      width:100%;
+      font-family: open sans-serif;
+      box-sizing: border-box;
     }
-    .ff3 {
-      text-align: right;
-      color: #7F7483;
-      font-family: open sans, sans-serif;
-      font-size: 1.2em;
-      margin-bottom: 1em;
+    .cpy2017{
+      font-size: 1em;
+      color:#7F7483;
+      font-style: normal;
+      letter-spacing: 0.2em;
+      text-align: center;
     }
+    .smpfn{
+      font-size: 1em;
+      color:#7F7483;
+      font-style: normal;
+      letter-spacing: 0.2em;
+      text-align: center;
+    }
+
+    /*footer part3 area class spliting 3parts/columns "contact- +1 3238251687 " part3 */
+  .ff3 {
+    display: block;
+  }
+  .ff3 {
+    text-align: right;
+    float: right;
+    color: #7F7483;
+    font-family: open sans, sans-serif;
+    padding-left:5.3em;
+  }
 
 
 /* media queries for all properties for iphone5 for pixel 320-568px*/
@@ -118,7 +168,6 @@ and (max-width : 568px){
 /*  HEADER SECTION */
 /*Main header for simplyfying*/
   .my-one{
-    width: 80%;
     float: left;
     padding-left: 0em;
   }
@@ -132,6 +181,7 @@ padding-left:0em;
 float:left;
 margin-top:0.5em;
 font-size: 3.5em;
+
 }
 
 /*Main header for "g" colour */
@@ -142,16 +192,14 @@ font-size: 3.5em;
 }
 /*Main header for burger menu */
 .my-two{
-  width: 20%;
+  color: #7F7483;
   float: right;
-  padding-right: 0em;
-  text-align:right;
-  margin-top:0em;
+  padding:0em;
+  margin-top:0.7em;
   top:0px;
 }
 .fa {
-padding-left:6.5em;
-text-align: right;
+padding-right:5em;
 margin-top: 0px;
 margin-top: 0em;
 }
@@ -192,7 +240,7 @@ white-space: normal;
   }
 
 
-          /*FOOOTER SECTION                */
+                     /*FOOOTER SECTION*/
   /*footer part1 area class spliting 3parts/columns mail part */
   .mail-phone {
     display: block;
@@ -281,7 +329,174 @@ white-space: normal;
     font-family: open sans, sans-serif;
     padding-left:5.3em;
   }
-  .fa fa-phone fa-2x{
+}
+
+/* media queries for all properties for ipad for pixel 568-768px*/
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px){
+/*  HEADER SECTION */
+/*Main header for simplyfying*/
+  .my-one{
+    float: left;
+    padding-left: 0em;
+  }
+
+/*Main header for simplyfying*/
+.my-one h1{
+color: #7F7483;
+font-family: open Sans,sans-serif;
+font-weight:normal;
+padding-left:0em;
+float:left;
+margin-top:0.5em;
+font-size: 3.5em;
 
 }
+
+/*Main header for "g" colour */
+.for-g{
+  color: #FFCD00;
+  font-family: cursive;
+  font-size: 1em;
+}
+/*Main header for burger menu */
+.my-two{
+  color: #7F7483;
+  float: right;
+  padding:0em;
+  margin-top:0.7em;
+  top:0px;
+}
+.fa {
+padding-right:5em;
+margin-top: 0px;
+margin-top: 0em;
+}
+                      /*INNER SECTION*/
+/*class inner*/
+.inner {
+margin-top: calc(50%-75px) !important;
+margin-bottom:12em  !important;
+}
+/*Inner-middle part area my three -we deal in */
+.my-three {
+white-space: normal;
+}
+/*Inner-middle part area my three we deal in */
+.wdi{
+  font-size:4em;
+  color: #7F7483;
+  font-family: sans-serif;
+  float: left;
+  padding-left:0.1px;
+  }
+  /*Inner-middle part 2 area class spliting 3parts/columns three -design */
+.bo-txt {
+    margin-top: 1.5em;
+  }
+/*Inner-middle part 2 area class spliting 3parts/columns three -design */
+  .sc-vxr{
+    display: grid;
+    grid-auto-flow: dense;
+    padding-left: 12em;
+  }
+  /*Inner-middle part 2 area class spliting 3parts/columns  -design */
+  .dig{
+    font-size:4.4em;
+    color: #FFCD00;
+    padding-left: 1.2em;
+    line-height: 0.1em
+  }
+
+
+                     /*FOOOTER SECTION*/
+  /*footer part1 area class spliting 3parts/columns mail part */
+  .mail-phone {
+    display: block;
+    position:relative;
+    right:0;
+    left:0;
+    bottom:0;
+    padding:0;
+    font-family:open sans-serif;
+  }
+  .mailandphone{
+  display: inline-block;
+  padding:0px;
+  box-sizing: border-box;
+  }
+
+  .ff1 {
+    color: #7F7483;
+    font-family: open sans, sans-serif;
+    text-align: left;
+    float:left;
+    padding:0px;
+
+  }
+  .for-hi-g{
+    color: #FFCD00;
+    font-family: cursive;
+    font-style: normal;
+    font-size: 1em;
+    letter-spacing:0.2em;
+  }
+  .fa {
+    height: 24px;
+    width :24px;
+    padding left:0.1em;
+  }
+
+
+  /*footer part2 area class spliting 3parts/columns "Built in Los Angeles, California."" part2 */
+  .ff2-a-b {
+    display: block;
+    text-align: center;
+    padding: 0px;
+    width:100%;
+    font-family: open sans-serif;
+    box-sizing: border-box;
+}
+.BLACF {
+  font-size: 1em;
+  color:#7F7483;
+  font-style: normal;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+.ff2-c {
+  display: block;
+  text-align: center;
+  padding: 0px;
+  width:100%;
+  font-family: open sans-serif;
+  box-sizing: border-box;
+}
+.cpy2017{
+  font-size: 1em;
+  color:#7F7483;
+  font-style: normal;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+.smpfn{
+  font-size: 1em;
+  color:#7F7483;
+  font-style: normal;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+
+  /*footer part3 area class spliting 3parts/columns "contact- +1 3238251687 " part3 */
+  .ff3 {
+    display: block;
+  }
+  .ff3 {
+    text-align: right;
+    float: right;
+    color: #7F7483;
+    font-family: open sans, sans-serif;
+    padding-left:5.3em;
+  }
 }
